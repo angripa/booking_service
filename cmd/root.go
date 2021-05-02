@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	"booking_service/pkg/routes"
 	"log"
 	"net/http"
 
@@ -10,7 +11,7 @@ import (
 
 func Start() {
 	r := mux.NewRouter()
-	// routes.RegisterBookStoreRoutes(r)
+	routes.RegisterBookStoreRoutes(r)
 	http.Handle("/", r)
-	log.Fatal(http.ListenAndServe("localhost:8080", r))
+	log.Fatal(http.ListenAndServe("localhost:8089", r))
 }
