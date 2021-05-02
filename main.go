@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/angripa/booking_service/env"
+	"github.com/booking_service/cmd"
 )
 
+//Start CMD Application
 func main() {
-	env.initConfig()
+	cmd.Start()
 }

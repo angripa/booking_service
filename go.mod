@@ -1,3 +1,9 @@
-module github.com/angripa/booking_service
+module github.com/booking_service
 
 go 1.13
+
+require (
+	github.com/go-sql-driver/mysql v1.6.0
+	github.com/jinzhu/gorm v1.9.16
+	github.com/jinzhu/inflection v1.0.0
+)
