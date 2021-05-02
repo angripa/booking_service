@@ -1,4 +1,4 @@
-module github.com/booking_service
+module github.com/angripa/booking_service
 
 go 1.13
 
