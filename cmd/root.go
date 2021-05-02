@@ -1,9 +1,10 @@
 package cmd
 
 import (
-	"booking_service/pkg/routes"
 	"log"
 	"net/http"
+
+	"github.com/angripa/booking_service/pkg/routes"
 
 	"github.com/gorilla/mux"
 	_ "github.com/jinzhu/gorm/dialects/mysql"

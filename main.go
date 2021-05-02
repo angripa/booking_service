@@ -1,7 +1,7 @@
 package main
 
 import (
-	"booking_service/cmd"
+	"github.com/angripa/booking_service/cmd"
 )
 
 //Start CMD Application
